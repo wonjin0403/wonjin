@@ -99,14 +99,31 @@ p {
 }
 
 .publication {
-  grid-template-columns: 120px 1fr;
+  grid-template-columns: 150px 1fr;
 }
 
 .paper-thumb {
-  width: 110px;
-  height: 78px;
+  width: 140px;
+  height: 86px;
   border: 1px solid #ddd;
-  object-fit: cover;
+  background: #fff;
+  object-fit: contain;
+}
+
+.education-item {
+  margin: 0 0 24px;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 2px;
+}
+
+.education-date {
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 
 ul {
@@ -116,6 +133,10 @@ ul {
 
 li {
   margin-bottom: 6px;
+}
+
+section p + ul {
+  margin-bottom: 12px;
 }
 
 footer {
@@ -152,5 +173,14 @@ footer {
     display: block;
     float: none;
     margin: 2px 0 0;
+  }
+
+  .education-header {
+    display: block;
+  }
+
+  .education-date {
+    display: block;
+    margin-top: 2px;
   }
 }
