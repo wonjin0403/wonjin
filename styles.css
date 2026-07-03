@@ -81,10 +81,15 @@ p {
   height: 58px;
   place-items: center;
   border: 1px solid #ddd;
-  background: #f7f7f7;
-  color: #555;
-  font-size: 15px;
-  font-weight: 700;
+  background: #fff;
+  overflow: hidden;
+}
+
+.logo img {
+  display: block;
+  max-width: 46px;
+  max-height: 38px;
+  object-fit: contain;
 }
 
 .entry-body {
