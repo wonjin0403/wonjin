@@ -134,6 +134,10 @@ p {
   object-fit: contain;
 }
 
+.paper-links {
+  margin-top: 2px;
+}
+
 .education-item {
   margin: 0 0 24px;
 }
